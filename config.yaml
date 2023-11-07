@@ -6,7 +6,7 @@ buildConfiguration:
       - package.json
       - package-lock.json
       - .npmrc
-dynamoRedirects:
+dynamicRedirects:
   # This is a rewrite because the status code is 200. It also takes advantage of built-in splat support.
   -
     from: /grey/*
